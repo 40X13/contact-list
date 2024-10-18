@@ -3,7 +3,7 @@ import {dirname} from 'path';
 import path from 'path';
 
 
-export function getPath (url,...arg) {
+export function getPAth (url, ...arg) {
     const __dirname = dirname(fileURLToPath(url));
     return path.join(__dirname, ...arg);
 }
